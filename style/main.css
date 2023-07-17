@@ -894,10 +894,11 @@ nav .container .right button:hover {
     transform: translateY(30px);
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .container {
-    width: 335px;
+    max-width: 335px;
     overflow: hidden;
+    padding: 3px;
   }
   all {
     width: 370px;
